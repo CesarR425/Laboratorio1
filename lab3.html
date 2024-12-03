@@ -14,11 +14,14 @@
         <input type="number" name="n1" id="n1">
         <label for="n2">segundo valor:</label>
         <input type="number" name="n2" id="n2">
-        <input type="button" class="button" value="Suma">
-        <input type="button" class="button" value="Resta">
-        <input type="button" class="button" value="Multiplicación">
-        <input type="button" class="button" value="División">
+        <div>
+            <h2 id="resul"></h2>
+        </div>
+        <input type="button" class="button" value="Suma" onclick="fsumar()">
+        <input type="button" class="button" value="Resta" onclick="frestar()">
+        <input type="button" class="button" value="Multiplicación" onclick="fmultiplicar()">
+        <input type="button" class="button" value="División" onclick="fdividir()">
     </form>
-    <script type="module" crs="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
